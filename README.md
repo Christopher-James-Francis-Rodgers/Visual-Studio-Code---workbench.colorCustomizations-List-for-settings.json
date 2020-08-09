@@ -4,30 +4,37 @@
 
 The file 
 'workbench.colorCustomizations--yyyy.MM.dduHHmm.txt'
-is a replication, with additional Headings added, of the page 'Theme Colors' (for Visual Studio Code [VSCode]):
+is a modified replication of the online reference page for Visual Studio Code [VSCode]:
+
+'Theme Colors'
 
 https://code.visualstudio.com/api/references/theme-color
 
-as it existed on the day 2020.08.08
+as it existed on 2020.08.08
+
+I added additional Headings, and edited some of the descriptions that follow each setting.
 
 ## Insert the contents into 'settings.json'
 
-The contents of the file 'workbench.colorCustomizations--yyyy.MM.dduHHmm.txt' are suitable for insertion into the VSCode file 'settings.json' (Copy/Paste file contents), provided that the contents of 'workbench.colorCustomizations--yyyy.MM.dduHHmm.txt' are pasted in-between the opening curly-brace, and the closing curly-brace of the file 'settings.json'.
+The contents of the file 'workbench.colorCustomizations--yyyy.MM.dduHHmm.txt' are suitable for insertion into the VSCode file 'settings.json' (Copy/Paste file contents), if you pasted the contents in-between the opening curly-brace, and the closing curly-brace of the file 'settings.json'.
+
+## What is included
 
 All color settings listed on the visualstudio.com page are in the order they were found on that page (*1), but I added additional headings for ease of finding a desired setting, or set of settings. 
 
-### (*1) Not included are the no-longer supported 'Notification colors' for pre-Feb, 2018 VSCode versions
+### (*1) Not included are 'Notification colors' for pre-Feb, 2018 VSCode versions
 
-The 'Notification colors' in file 'workbench.colorCustomizations--yyyy.MM.dduHHmm.txt' only apply for Visual Studio Code versions 1.21 (February 2018), and higher. If you are targeting VSCode versions before the 1.21 release, those old no-longer supported 'notification colors' are not included, but are listed online under the heading "Notification colors", and underneath the latest notification color listings, at...
+The 'Notification colors' in file 'workbench.colorCustomizations--yyyy.MM.dduHHmm.txt' only apply for Visual Studio Code versions 1.21 (February 2018), and higher. 
+
+If you are targeting VSCode versions before the 1.21 release, those old no-longer supported 'notification colors' are not included in my file, but are listed online under the heading "Notification colors", and underneath the first set of supported 'Notification color' listings, at...
 
 https://code.visualstudio.com/api/references/theme-color#notification-colors
 
-No other settings are defined as unsupported on the page:
-https://code.visualstudio.com/api/references/theme-color
+No other settings on that page were defined as unsupported.
 
 ## Activating a New Setting
 
-Each separate color setting is ready to use after you define its color (Eg: #rrggbb), and then un-comment its line by removing the two forward-slash characters at the beginning of that setting's line-- at which point it becomes active.
+Each separate color setting is ready to use after you define its color (Eg: #rrggbb, or #rrggbbaa), and then un-comment its line by removing the two forward-slash characters at the beginning of that setting's line-- at which point it becomes active.
 
 Some settings take effect immediately, but some settings require that you first 'Reload' Visual Studio Code [Ctrl/Cmd]+[R] before the new setting takes effect.'
 
@@ -42,7 +49,7 @@ Color values can be defined in the RGB color model with an alpha channel for tra
 
 [End: Quote]
 
-### Beware of overlapping Background (BG) Color 'Opacity'/'Transparency' Conflicts Within Editor Panes
+### Beware 'Opacity'/'Transparency' Conflicts in Editor Panes from overlapping Background (BG) Colors
 
 When two (or more) background color (BG color) CSS decoration declarations apply to the same text character(s), as for example, when 'selecting' text that already has a modified background color because it is a 'Find' (a search result)...
 
@@ -59,4 +66,4 @@ Some colors should not be opaque in order to not cover other annotations. Check 
 
 [End: Quote]
 
-##
+# --2020.08.09u2147
