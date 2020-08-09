@@ -1,4 +1,4 @@
-# Visual-Studio-Code--VSCode---workbench.colorCustomizations-List-for-file-settings.json
+# workbench.colorCustomizations list for Visual Studio Code file settings.json (VS VSCode)
 
 ## Source of This List
 
