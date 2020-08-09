@@ -16,7 +16,9 @@ I added additional Headings, and edited some of the descriptions that follow eac
 
 ## Insert the contents into 'settings.json'
 
-The contents of the file 'workbench.colorCustomizations--yyyy.MM.dduHHmm.txt' are suitable for insertion into the VSCode file 'settings.json' (Copy/Paste file contents), if you pasted the contents in-between the opening curly-brace, and the closing curly-brace of the file 'settings.json'.
+The contents of the file 'workbench.colorCustomizations--yyyy.MM.dduHHmm.txt' are suitable for insertion into the VSCode file 'settings.json' (Copy/Paste). 
+
+Paste the contents into the file 'settings.json' in-between the opening curly-brace, and the closing curly-brace.
 
 ## What is included
 
