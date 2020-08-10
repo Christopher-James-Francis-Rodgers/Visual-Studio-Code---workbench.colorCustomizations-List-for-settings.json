@@ -14,9 +14,9 @@ https://medium.com/@danromans/how-to-customize-semantic-token-colorization-with-
 
 ## Source of This List
 
-The file 
+My file 
 'workbench.colorCustomizations--yyyy.MM.dduHHmm.txt'
-is a modified replication of the online reference page for Visual Studio Code [VSCode]:
+is a modified replication of the online reference page:
 
 'Theme Colors'
 
@@ -34,25 +34,27 @@ Paste the contents into the file 'settings.json' in-between the opening curly-br
 
 ## What is included
 
-All color settings listed on the visualstudio.com page are in the order they were found on that page (*1), but I added additional headings for ease of finding a desired setting, or set of settings. I also edited a some of the descriptions, expanding upon them for clarity as my limited experience allows.
+All color settings listed on the visualstudio.com page are in my file in the order they were found online (*1), but I added additional headings for ease of finding a desired setting, or set of settings. I also edited some of the descriptions, expanding upon them for clarity as my limited experience allows. Admittedly, I did not review all of the descriptions.
 
 ### (*1) Not included are 'Notification colors' for pre-Feb, 2018 VSCode versions
 
-The 'Notification colors' in file 'workbench.colorCustomizations--yyyy.MM.dduHHmm.txt' are only those for Visual Studio Code versions 1.21 (February 2018), and higher. 
+The 'Notification colors' in my file 'workbench.colorCustomizations--yyyy.MM.dduHHmm.txt' do not include those listed online for Visual Studio Code versions older that 1.21 (February 2018). 
 
 If you are targeting VSCode versions before the 1.21 release, those old no-longer supported 'notification colors' are not included in my file, but are listed online under the heading "Notification colors", and underneath the first set of supported 'Notification color' listings, at...
 
 https://code.visualstudio.com/api/references/theme-color#notification-colors
 
-No other settings on that page were defined as unsupported.
+None of the other settings on that page were stated as being unsupported.
 
 ## Activating a New Setting
 
-Each separate color setting is ready to use after you define its color (Eg: #rrggbb, or #rrggbbaa), and then un-comment its line by removing the two forward-slash characters at the beginning of that setting's line-- at which point, that specific color becomes active.
+Each separate color setting is ready to use after you define its color (Eg: #rrggbb, or #rrggbbaa), and then un-comment its line by removing the two forward-slash characters at the beginning of that setting's line.
 
-Some settings take effect immediately, but some settings require that you first 'Reload' Visual Studio Code [Ctrl/Cmd]+[R] before the new setting takes effect.'
+Save the settings.json file after you modify it. [Ctrl/Cmd]+[S].
 
-## Defining a Color - Format of that Definition
+Some color settings take effect immediately, but some settings require that you first 'Reload' Visual Studio Code [Ctrl/Cmd]+[R] before the new setting takes effect.
+
+## Defining a Color - Color Format
 
 As stated online at 
 https://code.visualstudio.com/api/references/theme-color#color-formats
