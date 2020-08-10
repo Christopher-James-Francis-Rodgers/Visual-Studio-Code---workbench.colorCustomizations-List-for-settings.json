@@ -1,5 +1,11 @@
 # workbench.colorCustomizations list for Visual Studio Code file settings.json 2020.08.08 (VS VSCode)
 
+This is a full list of the user modifiable 'workbench.colorCustomizations' color settings for your settings.json file.
+
+The are all commented-out, which means that the ones you enable will have a different text color, allowing you to easily see which color settings you have modified.
+
+These color settings are not those related to syntax, or semantics. 
+
 ## Source of This List
 
 The file 
