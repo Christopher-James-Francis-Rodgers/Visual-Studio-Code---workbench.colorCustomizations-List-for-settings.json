@@ -2,11 +2,11 @@
 
 This is a full list of the user modifiable 'workbench.colorCustomizations' color settings for your settings.json file.
 
-The are all commented-out, which means that the ones you enable will have a different text color, allowing you to easily see which color settings you have modified in your settings.json file.
+The are all commented-out, which means that the ones you enable will have a different text color, allowing you to easily see in your settings.json file those color settings you have modified.
 
-These color settings are not those related to syntax, or semantics. 
+Note that these color settings do not relate to syntax, or semantics colorization. 
 
-They are categorized, and listed in the same manner as the source page.
+The settings are categorized, and listed in the same manner as the source page, though I have added additional sub-headings.
 
 ## Source of This List
 
