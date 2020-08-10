@@ -26,7 +26,7 @@ https://code.visualstudio.com/api/references/theme-color
 
 as it existed on 2020.08.08
 
-I added additional Headings, and edited some of the descriptions that follow each setting.
+I added additional Headings, and edited some of the descriptions.
 
 ## Insert the contents into 'settings.json'
 
