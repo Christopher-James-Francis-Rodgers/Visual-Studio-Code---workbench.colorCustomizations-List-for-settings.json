@@ -26,12 +26,6 @@ as it existed on 2020.08.08
 
 I added additional Headings, and edited some of the descriptions.
 
-## Insert the contents into 'settings.json'
-
-The contents of the file 'workbench.colorCustomizations--yyyy.MM.dduHHmm.txt' are suitable for insertion into the VSCode file 'settings.json' (Copy/Paste). 
-
-Paste the contents into the file 'settings.json' in-between the opening curly-brace, and the closing curly-brace.
-
 ## What is included
 
 All color settings listed on the visualstudio.com page are in my file in the order they were found online (*1), but I added additional headings for ease of finding a desired setting, or set of settings. I also edited some of the descriptions, expanding upon them for clarity as my limited experience allows. Admittedly, I did not review all of the descriptions.
@@ -46,7 +40,27 @@ https://code.visualstudio.com/api/references/theme-color#notification-colors
 
 None of the other settings on that page were stated as being unsupported.
 
-## Activating a New Setting
+## Insert the contents into 'settings.json' 
+
+The contents of the file 'workbench.colorCustomizations--yyyy.MM.dduHHmm.txt' are suitable for insertion into the VSCode file 'settings.json' 
+
+Open the file 'workbench.colorCustomizations--yyyy.MM.dduHHmm.txt'.
+
+'Select all' of its contents. [Ctrl/Cmd]+[A]
+
+'Copy' [Ctrl/Cmd]+[C]
+
+Open the file settings.json file in Visusl Studio Code by first opening 'Settings' [Ctrl/Cmd]+[,]
+
+Then click the top-right icon that displays "Open Settings (JSON)" when you hover your mouse on that icon. Note that that icon only appears when the 'Settings' have first been opened.
+
+Go to the bottom of the settings.json file, and add a new line just above the final closing-brace "}".
+
+Place your flashing cursor on that new line, and 'Paste' [Ctrl/Cmd]+[V]
+
+'Save' the settings.json file now that you have modified it. [Ctrl/Cmd]+[S].
+
+## Activating a New Color Setting
 
 Each separate color setting is ready to use after you define its color (Eg: #rrggbb, or #rrggbbaa), and then un-comment its line by removing the two forward-slash characters at the beginning of that setting's line.
 
