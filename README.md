@@ -6,6 +6,8 @@ The are all commented-out, which means that the ones you enable will have a diff
 
 These color settings are not those related to syntax, or semantics. 
 
+They are categorized, and listed in the same manner as the source page.
+
 ## Source of This List
 
 The file 
