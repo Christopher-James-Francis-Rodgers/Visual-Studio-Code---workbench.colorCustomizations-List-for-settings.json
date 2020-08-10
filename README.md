@@ -10,6 +10,14 @@ The settings are categorized, and listed in the same manner as the source page, 
 
 Syntax/ Semantic colorization is done by the Theme you are using, and by any extensions you have installed that attend to that.
 
+[Quote - Paraphrased]
+
+Syntax Highlighting:
+
+Syntax highlighting determines the color and style of (your) code in the text editor... It provides a multi-color contrast to (different kinds) of key words... so that your eyes can more immediately locate a particular (kind of) text among a sea of strings, variables, comments, et cetera.
+
+[End: Quote - Paraphrased]
+
 https://medium.com/@danromans/how-to-customize-semantic-token-colorization-with-visual-studio-code-ac3eab96141b
 
 ## Source of This List
