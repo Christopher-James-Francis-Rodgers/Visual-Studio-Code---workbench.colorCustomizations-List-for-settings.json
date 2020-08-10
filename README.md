@@ -8,6 +8,12 @@ Note that these color settings do not relate to syntax, or semantics colorizatio
 
 The settings are categorized, and listed in the same manner as the source page, though I have added additional sub-headings.
 
+## These color settings do not relate to syntax, or semantics colorization 
+
+Syntax/ Semantic colorization is done by the Theme you are using, and by any extensions you have installed that attend to that.
+
+https://medium.com/@danromans/how-to-customize-semantic-token-colorization-with-visual-studio-code-ac3eab96141b
+
 ## Source of This List
 
 The file 
@@ -30,7 +36,7 @@ Paste the contents into the file 'settings.json' in-between the opening curly-br
 
 ## What is included
 
-All color settings listed on the visualstudio.com page are in the order they were found on that page (*1), but I added additional headings for ease of finding a desired setting, or set of settings. 
+All color settings listed on the visualstudio.com page are in the order they were found on that page (*1), but I added additional headings for ease of finding a desired setting, or set of settings. I also edited a some of the descriptions, expanding upon them for clarity as my limited experience allows.
 
 ### (*1) Not included are 'Notification colors' for pre-Feb, 2018 VSCode versions
 
