@@ -109,5 +109,3 @@ Each separate color setting is ready to use after you define its color (Eg: #rrg
 Save the settings.json file after you modify it. [Ctrl/Cmd]+[S].
 
 Some color settings take effect immediately, but some settings require that you first 'Reload' Visual Studio Code [Ctrl/Cmd]+[R] before the new setting takes effect.
-
-# --2020.08.09u2147
