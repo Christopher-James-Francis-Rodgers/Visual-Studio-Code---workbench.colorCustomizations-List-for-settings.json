@@ -1,3 +1,5 @@
+--2020.08.10u2200
+
 # workbench.colorCustomizations list for Visual Studio Code file settings.json 2020.08.08 (VS VSCode)
 
 This is a full list of the user modifiable 'workbench.colorCustomizations' color settings for your settings.json file.
