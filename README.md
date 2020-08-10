@@ -18,6 +18,10 @@ Syntax highlighting determines the color and style of (your) code in the text ed
 
 [End: Quote - Paraphrased]
 
+Credit due:
+
+How To Customize Semantic Token Colorization With Visual Studio Code
+
 https://medium.com/@danromans/how-to-customize-semantic-token-colorization-with-visual-studio-code-ac3eab96141b
 
 ## Source of This List
