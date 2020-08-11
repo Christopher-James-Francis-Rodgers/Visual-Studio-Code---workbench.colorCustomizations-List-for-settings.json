@@ -46,9 +46,9 @@ All color settings listed on the visualstudio.com page are in my file in the ord
 
 ### (*1) Not included are 'Notification colors' for pre-Feb, 2018 VSCode versions
 
-The 'Notification colors' in my file 'workbench.colorCustomizations--yyyy.MM.dduHHmm.txt' do not include those listed online for Visual Studio Code versions older that 1.21 (February 2018). 
+The 'Notification colors' in my file 'workbench.colorCustomizations--yyyy.MM.dduHHmm.txt' do not include the 'Notification colors' listed online for Visual Studio Code versions older that 1.21 (February 2018). 
 
-If you are targeting VSCode versions before the 1.21 release, those old no-longer supported 'notification colors' are not included in my file, but are listed online under the heading "Notification colors", and underneath the first set of supported 'Notification color' listings, at...
+If you are targeting VSCode versions before the 1.21 release, those old no-longer supported 'notification colors' that are not included in my file, are listed online under the heading "Notification colors", and underneath the first set of supported 'Notification color' listings, at...
 
 https://code.visualstudio.com/api/references/theme-color#notification-colors
 
@@ -58,11 +58,13 @@ None of the other settings on that page were stated as being unsupported.
 
 The contents of the file 'workbench.colorCustomizations--yyyy.MM.dduHHmm.txt' are suitable for insertion into the VSCode file 'settings.json' 
 
+Download the file by clicking on this page's upper-right green button "- Code -", and, in the drop-down menu, click "Download Zip". 
+
 Open the file 'workbench.colorCustomizations--yyyy.MM.dduHHmm.txt'.
 
-'Select all' of its contents. [Ctrl/Cmd]+[A]
+'Select all' of its contents using the two-key keyboard shortcut [Ctrl/Cmd]+[A]
 
-'Copy' [Ctrl/Cmd]+[C]
+Then 'Copy' [Ctrl/Cmd]+[C]
 
 Open the file settings.json file in Visusl Studio Code by first opening 'Settings' [Ctrl/Cmd]+[,]
 
