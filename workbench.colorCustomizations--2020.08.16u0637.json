@@ -1,4 +1,4 @@
-// workbench.colorCustomizations--2020.08.16u0347.json
+// workbench.colorCustomizations--2020.08.16u0637.json
 // 
 { // COMMENT-OUT THIS OPENING CURLY-BRACE, WHICH IMITATES THE 
   // OPENING CURLY BRACE OF THE settings.json FILE,
@@ -9,10 +9,12 @@
   // 
   // 
   // 
+  // Latest Version
+  // 
   "workbench.colorCustom._00_myIntroduction": {
     // (This is a Collapsible Section)
     // 
-    // workbench.colorCustomizations--2020.08.16u0347.json
+    // workbench.colorCustomizations--2020.08.16u0637.json
     // 
     // 
     // 
@@ -38,7 +40,7 @@
     // 
     // Then 'Copy' [Ctrl/Cmd]+[C]
     // 
-    // Open the file settings.json file in Visusl Studio Code 
+    // Open the file settings.json file in Visual Studio Code 
     // by first opening 'Settings' [Ctrl/Cmd]+[,]
     // Then click the top-right icon that displays 
     // "Open Settings (JSON)" when you hover your mouse on it.
@@ -60,11 +62,11 @@
     // To view this file in Visual Studio Code (VSCode) without
     // warnings about comments not being allowed in json files,
     // in the 'Status Bar' at the bottom of the VSCode program
-    // windown, and on the right-hand side of the Status Bar,
+    // window, and on the right-hand side of the Status Bar,
     // click on "JSON", and in the pop-up context menu, click
     // "JSON with Comments".
     //
-    // Sadly, I must repeat that procedure everytime I open
+    // Sadly, I must repeat that procedure every time I open
     // this file in VSCode. 
     // 
     // 
@@ -132,7 +134,7 @@
     // Upper-case is allowed, but I never use it: 
     // #RGB, #RGBA, #RRGGBB and #RRGGBBAA.
     //
-    // Hexidecimal values must be...
+    // Hexadecimal values must be...
     // (0-9, a-f, A-F)
     //
     //
@@ -167,7 +169,7 @@
     // text characters that will at times also targeted 
     // by additional background color settings.
     // 
-    // An example of that is when a seach result 
+    // An example of that is when a search result 
     // ('Find/Replace' result) is displaying a distinct 
     // background color, and then you 'select' a portion 
     // of that 'Find/Replace' text.
@@ -198,7 +200,7 @@
     // Applying a New Color Setting: 'Save' and/or 'Reload'
     // 
     // After you change a color setting, you will need to,
-    // at a mimimum, 'Save' the settings.json file to see the
+    // at a minimum, 'Save' the settings.json file to see the
     // effects of your efforts. Save: [Ctrl/Cmd]+[S]
     //
     // For some settings, you will have to 'Reload'
@@ -211,8 +213,8 @@
     // While it is true that you can 'reload' VSCode 
     // by shutting down VSCode, and restarting it,
     // I have found that the easiest way is by installing 
-    // the extension "Reload". All that that extencion does is 
-    // put a button labled 'Reload' in the bottom right of the 
+    // the extension "Reload". All that that extension does is 
+    // put a button labeled 'Reload' in the bottom right of the 
     // VSCode program window, in the 'status bar', which, 
     // when clicked, reloads VSCode for you. 
     //
