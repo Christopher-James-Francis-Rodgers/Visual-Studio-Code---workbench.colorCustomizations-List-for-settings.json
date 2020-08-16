@@ -1,113 +1,233 @@
---2020.08.10u2200
 
-# workbench.colorCustomizations list for Visual Studio Code file settings.json 2020.08.08 (VS VSCode)
+workbench.colorCustomizations--2020.08.16u0347.json
 
-This is a full list of the user modifiable 'workbench.colorCustomizations' color settings for your settings.json file.
 
-The settings are all commented-out, which means that the ones you enable will have a different text color, allowing you to easily see in your settings.json file those color settings you have modified.
 
-The settings are categorized, and listed in the same manner as the source page, though I have added additional sub-headings.
+# Latest Version
 
-## These color settings do not relate to syntax, or semantics colorization 
+The latest version of this 'workbench.colorCustomizations' 
+section for the settings.json file is on GitHub 
+repository page:
 
-Syntax/ Semantic colorization is done by the Theme you are using, and by any extensions you have installed that attend to that.
+workbench.colorCustomizations-list-for-Visual-Studio-Code-file-settings.json--VS-VSCode
 
-[Quote - Paraphrased]
+https://github.com/Christopher-James-Francis-Rodgers/workbench.colorCustomizations-list-for-Visual-Studio-Code-file-settings.json--VS-VSCode
 
-Syntax Highlighting:
+Download the latest file
+'workbench.colorCustomizations--yyyy.MM.dduHHmm.json"
+by clicking on that page's upper-right green button 
+labeled "- Code -", and in the drop-down menu, 
+click "Download Zip".
 
-Syntax highlighting determines the color and style of (your) code in the text editor... It provides a multi-color contrast to (different kinds) of key words... so that your eyes can more immediately locate a particular (kind of) text among a sea of strings, variables, comments, et cetera.
+Open the file 
+'workbench.colorCustomizations--yyyy.MM.dduHHmm.json'.
 
-[End: Quote - Paraphrased]
-
-Credit due:
-
-How To Customize Semantic Token Colorization With Visual Studio Code
-
-https://medium.com/@danromans/how-to-customize-semantic-token-colorization-with-visual-studio-code-ac3eab96141b
-
-## Source of This List
-
-My file 
-'workbench.colorCustomizations--yyyy.MM.dduHHmm.txt'
-is a modified replication of the online reference page:
-
-'Theme Colors'
-
-https://code.visualstudio.com/api/references/theme-color
-
-as it existed on 2020.08.08
-
-I added additional Headings, and edited some of the descriptions.
-
-## What is included
-
-All color settings listed on the visualstudio.com page are in my file in the order they were found online (*1), but I added additional headings for ease of finding a desired setting, or set of settings. I also edited some of the descriptions, expanding upon them for clarity as my limited experience allows. Admittedly, I did not review all of the descriptions.
-
-### (*1) Not included are 'Notification colors' for pre-Feb, 2018 VSCode versions
-
-The 'Notification colors' in my file 'workbench.colorCustomizations--yyyy.MM.dduHHmm.txt' do not include the 'Notification colors' listed online for Visual Studio Code versions older that 1.21 (February 2018). 
-
-If you are targeting VSCode versions before the 1.21 release, those old no-longer supported 'notification colors' that are not included in my file, are listed online under the heading "Notification colors", and underneath the first set of supported 'Notification color' listings, at...
-
-https://code.visualstudio.com/api/references/theme-color#notification-colors
-
-None of the other settings on that page were stated as being unsupported.
-
-## Insert the contents into 'settings.json' 
-
-The contents of the file 'workbench.colorCustomizations--yyyy.MM.dduHHmm.txt' are suitable for insertion into the VSCode file 'settings.json' 
-
-Download the file by clicking on this page's upper-right green button "- Code -", and, in the drop-down menu, click "Download Zip". 
-
-Open the file 'workbench.colorCustomizations--yyyy.MM.dduHHmm.txt'.
-
-'Select all' of its contents using the two-key keyboard shortcut [Ctrl/Cmd]+[A]
+'Select all' of its contents using the two-key keyboard 
+shortcut [Ctrl/Cmd]+[A]
 
 Then 'Copy' [Ctrl/Cmd]+[C]
 
-Open the file settings.json file in Visusl Studio Code by first opening 'Settings' [Ctrl/Cmd]+[,]
+Open the file settings.json file in Visusl Studio Code 
+by first opening 'Settings' [Ctrl/Cmd]+[,]
+Then click the top-right icon that displays 
+"Open Settings (JSON)" when you hover your mouse on it.
+Note that that icon only appears when the 'Settings' 
+have been opened first.
 
-Then click the top-right icon that displays "Open Settings (JSON)" when you hover your mouse on that icon. Note that that icon only appears when the 'Settings' have first been opened.
+Go to the bottom of the settings.json file,
+and add a new line just above the final closing-brace "}".
+Place your flashing cursor on that new line, 
+and 'Paste' [Ctrl/Cmd]+[V]
 
-Go to the bottom of the settings.json file, and add a new line just above the final closing-brace "}".
+'Save' the settings.json file now that you have modified it. 
+[Ctrl/Cmd]+[S]
 
-Place your flashing cursor on that new line, and 'Paste' [Ctrl/Cmd]+[V]
 
-'Save' the settings.json file now that you have modified it. [Ctrl/Cmd]+[S].
 
-## Defining a Color - Color Format
+# Fix - Comments Are Not Allowed In JSON Files
 
-As stated online at 
-https://code.visualstudio.com/api/references/theme-color#color-formats
+To view this file in Visual Studio Code (VSCode) without
+warnings about comments not being allowed in json files,
+in the 'Status Bar' at the bottom of the VSCode program
+windown, and on the right-hand side of the Status Bar,
+click on "JSON", and in the pop-up context menu, click
+"JSON with Comments".
 
-[Quote]
+Sadly, I must repeat that procedure everytime I open
+this file in VSCode. 
 
-Color values can be defined in the RGB color model with an alpha channel for transparency. As format, the following hexadecimal notations are supported: #RGB, #RGBA, #RRGGBB and #RRGGBBAA. R (red), G (green), B (blue), and A (alpha) are hexadecimal characters (0-9, a-f or A-F). The three-digit notation (#RGB) is a shorter version of the six-digit form (#RRGGBB) and the four-digit RGB notation (#RGBA) is a shorter version of the eight-digit form (#RRGGBBAA). For example #e35f is the same color as #ee3355ff.
 
-[End: Quote]
 
-### Beware 'Opacity'/'Transparency' Conflicts in Editor Panes from overlapping Background (BG) Colors
+# 'Theme Color' (2020.08.08)
 
-When two (or more) background color (BG color) CSS decoration declarations apply to the same text character(s), as for example, when 'selecting' text that already has a modified background color because it is a 'Find' (a search result)...
+This is a replication, and re-ordering, 
+with some details added, of the visualstudio.com page: 
+'Theme Color'...
 
-If the opacity is not specified by you for the background colors in-question, it becomes 'ff'; or if your opacity settings for background colors are is too near to 'ff', you risk having one BG setting obscuring the other.
+https:// code.visualstudio.com/api/references/theme-color
 
-As stated online at 
-https://code.visualstudio.com/api/references/theme-color#color-formats
+...as it existed on 2020.08.08, 
+except that the no-longer-supported 
+"Notification Colors" settings from that page 
+are not included in this file.
 
-[Quote]
 
-If no alpha value is defined, it defaults to ff (opaque, no transparency). If alpha is set to 00, the color is fully transparent.
 
-Some colors should not be opaque in order to not cover other annotations. Check the color descriptions to see to which colors this applies.
+# 469 "Property Key": "Value" Pairs
 
-[End: Quote]
+These 469 "Property Key": "Value" color settings 
+can override all of the Visual Studio Code (VSCode) 
+colors of your active theme's color settings 
+except for the syntax/ semantic colorization 
+of your actual code.
 
-## Activating a New Color Setting
 
-Each separate color setting is ready to use after you define its color (Eg: #rrggbb, or #rrggbbaa), and then un-comment its line by removing the two forward-slash characters at the beginning of that setting's line.
 
-Save the settings.json file after you modify it. [Ctrl/Cmd]+[S].
+# Your Existing workbench.colorCustomizations Settings...
 
-Some color settings take effect immediately, but some settings require that you first 'Reload' Visual Studio Code [Ctrl/Cmd]+[R] before the new setting takes effect.
+Any workbench.colorCustomizations "Property Key": "Value"
+pairs that you are already using can be place near the 
+bottom of this file, about 20-lines up from the bottom,
+where you see: "[Insert formerly used workbench.colorCustomizations
+settings below here..."
+
+
+
+# Syntax/ Semantic Colors Of Your Code
+
+These color settings do not affect syntax, 
+nor semantics colorization of your code.
+
+Your code's varying text colorization is determined 
+by Syntax/ Semantic rules set forth by the Theme 
+you are using, and by any extensions you have installed 
+that attends to that colorizing. 
+
+If and when I become inclined to address semantic/ syntax 
+coloring, I will start with re-watching the video:
+
+"VS Code Change Any Tag Color. Edit Custom 
+Syntax Colors (No extension) - YouTube"
+
+https://www.youtube.com/watch?v=Su-cNLe0dgw
+
+
+
+# The workbench.colorCustomizations Color Settings Format 
+is Hexadecimal
+
+Hexadecimal color notations supported: 
+#rgb, #rgba, #rrggbb, #rrggbbaa.
+Upper-case is allowed, but I never use it: 
+#RGB, #RGBA, #RRGGBB and #RRGGBBAA.
+
+Hexidecimal values must be...
+(0-9, a-f, A-F)
+
+
+
+# Alpha-Value - Opacity
+
+The "a" of the color format "#rgba"
+(or the "aa" of "#rrggbbaa")
+is the 'Alpha-Value', 
+which is the level of 'Opacity',
+and which means its level of visibility.
+
+If the optional alpha-value is omitted, 
+then the alpha-value defaults to "f", or "ff",
+which is fully opaque (visibility), and no transparency. 
+
+If an alpha-value is set to "0", or "00", 
+the color will be fully transparent, and will not be seen,
+which is true for all color declarations, not just 
+background colors.
+
+As another example, the 'bf' of "#000000bf" will render 
+'black' with 75% opacity (visibility), and 25% transparency. 
+
+
+
+# High, or Omitted Alpha-Values for Background Color
+
+The alpha-value is optional, in that the color will work
+if the alpha-value is omitted, but the alpha-value 
+should always be used for background colors which target 
+text characters that will at times also targeted 
+by additional background color settings.
+
+An example of that is when a seach result 
+('Find/Replace' result) is displaying a distinct 
+background color, and then you 'select' a portion 
+of that 'Find/Replace' text.
+
+Then the text you have selected is being targeted by the 
+background color of both the 'search result' declaration, 
+and the 'selection' declaration.
+
+When one, or both of those background color values 
+has its opacity (visibility) alpha-value
+set too high (too close to 'f' or 'ff'), 
+or if the alpha-value is omitted by you, 
+(which then sets the opacity to its default of 
+'fully-on',) you risk having one of the two background 
+colors obscuring the other.
+
+
+
+# Trial and Error Next
+
+I have yet to figure out exactly which background 
+settings, and what color settings with what alpha-values
+will work in conjunction with each other, so I will be
+using 'Trial and Error' to see what works.
+
+
+
+# Applying a New Color Setting: 'Save' and/or 'Reload'
+
+After you change a color setting, you will need to,
+at a mimimum, 'Save' the settings.json file to see the
+effects of your efforts. Save: [Ctrl/Cmd]+[S]
+
+For some settings, you will have to 'Reload'
+Visual Studio Code for the new setting to take effect. 
+
+
+
+# I Recommend the Extension 'Reload'
+
+While it is true that you can 'reload' VSCode 
+by shutting down VSCode, and restarting it,
+I have found that the easiest way is by installing 
+the extension "Reload". All that that extencion does is 
+put a button labled 'Reload' in the bottom right of the 
+VSCode program window, in the 'status bar', which, 
+when clicked, reloads VSCode for you. 
+
+Then, after VSCode shuts down, it automatically restarts, 
+and everything is put back as it was before the 'Reload'. 
+
+The 'Reload' keyboard shortcut that comes built-in to 
+VSCode [Ctrl/Cmd]+[R] was not working for me, so I am 
+happy, happy to have the extension 'Reload'. Nice, nice,
+very nice.
+
+
+
+# Repeated "Property Key": "Value" Declarations
+
+In case you are curious, a Property Key that is repeated 
+in the settings.json file will yield a 'warning' to that
+effect, however, the last occurrence will work just fine.
+
+Normally, each Property Key in the settings.json file
+that VSCode recognizes (if it is not commented-out), 
+when hovered upon, will give you a brief pop-up 
+description.
+
+If a Property Key is repeated,
+the pop-up description will only display 
+when you hover on the last occurrence of it.
+
+###
