@@ -1,6 +1,6 @@
 
 
-# workbench.colorCustomizations--2020.08.22u0119.json
+# workbench.colorCustomizations--2020.08.22u0519.json
 
 
 
@@ -19,7 +19,7 @@ https:github.com/Christopher-James-Francis-Rodgers/workbench.colorCustomizations
 
 
 ## This File Replicates The visualstudio.com Page
-'Theme Color' (2020.08.14)
+## 'Theme Color' (2020.08.14)
 
 This file is a replication, and re-ordering,
 with some details added, of the visualstudio.com page:
@@ -134,7 +134,7 @@ have been opened first.
 
 
 ## Save Your Existing workbench.colorCustomizations
-Settings, If Any
+## Settings, If Any
 
 It you alredy have any color theme key settings in the
 settings.json file, listed under
@@ -156,7 +156,7 @@ settings.json, including the closing curly-brace.
 
 
 ## Open This File, 'Copy' Its Contents, 'Paste' Into The
-settings.json File
+## settings.json File
 
 Open the file
 'workbench.colorCustomizations--yyyy.MM.dduHHmm.json'.
@@ -275,7 +275,7 @@ I have not stumbled across.
 
 
 ## 3 Of The 471 Keys Have No Description
-When Hovered Upon
+## When Hovered Upon
 
 When a key is un-commented in the file settings.json,
 and it is hovered upon by the mouse pointer,
@@ -350,7 +350,7 @@ color declaration is commented-out.
 
 
 ## The workbench.colorCustomizations Color Settings Keys
-Use A Hexadecimal Format
+## Use A Hexadecimal Format
 
 Hexadecimal color notations supported:
 #rgb, #rgba, #rrggbb, #rrggbbaa.
@@ -385,7 +385,7 @@ As another example, the 'bf' of "#000000bf" will render
 
 
 ## Opacity Alpha-Values Too High, or Omitted
-For Background Colors May Conflict
+## For Background Colors May Conflict
 
 The alpha-value is optional, in that the color will work
 if the alpha-value is omitted, but the alpha-value
